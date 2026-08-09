@@ -1,0 +1,1215 @@
+[
+  {
+    "registryId": "aig-insurance-company-of-canada",
+    "legalUnderwriter": "AIG Insurance Company of Canada",
+    "insurerGroup": "AIG",
+    "brandOrProgram": "AIG",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "aig-insurance-company-of-canada",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Brief flags specialty/commercial-leaning; validate Ontario standard PPA relevance before treating as a viable consumer route.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "allstate-insurance-company-of-canada",
+    "legalUnderwriter": "Allstate Insurance Company of Canada",
+    "insurerGroup": "Allstate",
+    "brandOrProgram": "Allstate",
+    "distributionType": "agent",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "allstate-insurance-company-of-canada",
+    "quoteUrl": "https://www.allstate.ca",
+    "sourceUrl": "https://www.allstate.ca",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "esurance-insurance-company-of-canada",
+    "legalUnderwriter": "Esurance Insurance Company of Canada",
+    "insurerGroup": "Allstate",
+    "brandOrProgram": "Esurance",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "esurance-insurance-company-of-canada",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Brief explicitly flags for validation — confirm whether this legacy Allstate-family entity is still active for new Ontario PPA business.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "pafco-insurance-company",
+    "legalUnderwriter": "Pafco Insurance Company",
+    "insurerGroup": "Allstate",
+    "brandOrProgram": "Pafco",
+    "distributionType": "broker",
+    "productScope": "nonstandard_PPA",
+    "distinctRateSourceId": "pafco-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "pembridge-insurance-company",
+    "legalUnderwriter": "Pembridge Insurance Company",
+    "insurerGroup": "Allstate",
+    "brandOrProgram": "Pembridge",
+    "distributionType": "broker",
+    "productScope": "nonstandard_PPA",
+    "distinctRateSourceId": "pembridge-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "aviva-general-insurance-company",
+    "legalUnderwriter": "Aviva General Insurance Company",
+    "insurerGroup": "Aviva",
+    "brandOrProgram": "Aviva Direct",
+    "distributionType": "direct",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "aviva-general-insurance-company",
+    "quoteUrl": "https://www.aviva.ca",
+    "sourceUrl": "https://www.aviva.ca",
+    "requirements": [
+      "licence",
+      "VIN"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "aviva-insurance-company-of-canada",
+    "legalUnderwriter": "Aviva Insurance Company of Canada",
+    "insurerGroup": "Aviva",
+    "brandOrProgram": "Aviva (broker channel)",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "aviva-insurance-company-of-canada",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "scottish-and-york-insurance-company",
+    "legalUnderwriter": "Scottish & York Insurance Company",
+    "insurerGroup": "Aviva",
+    "brandOrProgram": "Aviva legacy (Scottish & York / S&Y)",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "scottish-and-york-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Legacy Aviva-family legal entity; confirm current active status. Merge: Appendix A's Aviva row lists 'S&Y' and 'Scottish & York' as two separate tokens — S&Y is the standard market abbreviation for Scottish & York Insurance Company, the same real-world legal entity, not a second distinct rate source. Collapsed to one registry row; see mergedAliases.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false,
+    "mergedAliases": [
+      "S&Y",
+      "Scottish & York"
+    ]
+  },
+  {
+    "registryId": "traders-general-insurance-company",
+    "legalUnderwriter": "Traders General Insurance Company",
+    "insurerGroup": "Aviva",
+    "brandOrProgram": "Aviva (Traders General)",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "traders-general-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "unica-insurance-inc",
+    "legalUnderwriter": "Unica Insurance Inc.",
+    "insurerGroup": "Beneva",
+    "brandOrProgram": "Unica (Beneva)",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "unica-insurance-inc",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "caa-insurance-company",
+    "legalUnderwriter": "CAA Insurance Company",
+    "insurerGroup": "CAA",
+    "brandOrProgram": "CAA",
+    "distributionType": "affinity",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "caa-insurance-company",
+    "quoteUrl": "https://www.caa.ca",
+    "sourceUrl": "https://www.caa.ca",
+    "requirements": [
+      "licence",
+      "VIN",
+      "membership"
+    ],
+    "automationNotes": "CAA membership relationship required; direct/broker hybrid per brief.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "echelon-insurance",
+    "legalUnderwriter": "Echelon Insurance",
+    "insurerGroup": "CAA",
+    "brandOrProgram": "Echelon",
+    "distributionType": "broker",
+    "productScope": "nonstandard_PPA",
+    "distinctRateSourceId": "echelon-insurance",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "chubb-insurance-company-of-canada",
+    "legalUnderwriter": "Chubb Insurance Company of Canada",
+    "insurerGroup": "Chubb",
+    "brandOrProgram": "Chubb",
+    "distributionType": "broker",
+    "productScope": "high_net_worth",
+    "distinctRateSourceId": "chubb-insurance-company-of-canada",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "coseco-insurance-company",
+    "legalUnderwriter": "COSECO Insurance Company",
+    "insurerGroup": "Co-operators",
+    "brandOrProgram": "Co-operators (COSECO)",
+    "distributionType": "agent",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "coseco-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "cumis-general-insurance-company",
+    "legalUnderwriter": "CUMIS General Insurance Company",
+    "insurerGroup": "Co-operators",
+    "brandOrProgram": "Co-operators (CUMIS)",
+    "distributionType": "affinity",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "cumis-general-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "membership"
+    ],
+    "automationNotes": "Historically credit-union/affinity distributed; confirm current membership gating.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "co-operators-general-insurance-company",
+    "legalUnderwriter": "Co-operators General Insurance Company",
+    "insurerGroup": "Co-operators",
+    "brandOrProgram": "Co-operators",
+    "distributionType": "agent",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "co-operators-general-insurance-company",
+    "quoteUrl": "https://www.cooperators.ca",
+    "sourceUrl": "https://www.cooperators.ca",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "the-sovereign-general-insurance-company",
+    "legalUnderwriter": "The Sovereign General Insurance Company",
+    "insurerGroup": "Co-operators",
+    "brandOrProgram": "Co-operators (Sovereign General)",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "the-sovereign-general-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Brief flags affinity/specialty validation needed.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "the-commonwell-mutual-insurance-group",
+    "legalUnderwriter": "The Commonwell Mutual Insurance Group",
+    "insurerGroup": "Commonwell",
+    "brandOrProgram": "Commonwell",
+    "distributionType": "mutual",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "the-commonwell-mutual-insurance-group",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "continental-casualty-company",
+    "legalUnderwriter": "Continental Casualty Company",
+    "insurerGroup": "Continental (CNA)",
+    "brandOrProgram": "CNA",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "continental-casualty-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Specialty/commercial-leaning (CNA); validate Ontario standard PPA relevance.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "definity-insurance-company",
+    "legalUnderwriter": "Definity Insurance Company",
+    "insurerGroup": "Definity",
+    "brandOrProgram": "Definity / Economical",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "definity-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "sonnet-insurance-company",
+    "legalUnderwriter": "Sonnet Insurance Company",
+    "insurerGroup": "Definity",
+    "brandOrProgram": "Sonnet",
+    "distributionType": "direct",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "sonnet-insurance-company",
+    "quoteUrl": "https://www.sonnet.ca",
+    "sourceUrl": "https://www.sonnet.ca",
+    "requirements": [
+      "licence",
+      "VIN"
+    ],
+    "automationNotes": "Playwright probe priority 1 (§3a.5) — fully online, direct, instant-quote design.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "certas-direct-insurance-company",
+    "legalUnderwriter": "Certas Direct Insurance Company",
+    "insurerGroup": "Desjardins",
+    "brandOrProgram": "Desjardins Insurance (direct)",
+    "distributionType": "direct",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "certas-direct-insurance-company",
+    "quoteUrl": "https://www.desjardinsinsurance.com",
+    "sourceUrl": "https://www.desjardinsinsurance.com",
+    "requirements": [
+      "licence",
+      "VIN"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "certas-home-and-auto-insurance-company",
+    "legalUnderwriter": "Certas Home and Auto Insurance Company",
+    "insurerGroup": "Desjardins",
+    "brandOrProgram": "Desjardins Insurance (agent)",
+    "distributionType": "agent",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "certas-home-and-auto-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "the-personal-insurance-company",
+    "legalUnderwriter": "The Personal Insurance Company",
+    "insurerGroup": "Desjardins",
+    "brandOrProgram": "The Personal",
+    "distributionType": "affinity",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "the-personal-insurance-company",
+    "quoteUrl": "https://www.thepersonal.com",
+    "sourceUrl": "https://www.thepersonal.com",
+    "requirements": [
+      "licence",
+      "VIN",
+      "membership"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "economical-mutual-insurance-company",
+    "legalUnderwriter": "Economical Mutual Insurance Company",
+    "insurerGroup": "Economical",
+    "brandOrProgram": "Economical",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "economical-mutual-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Confirm current entity/program mapping vs. Definity post-demutualization.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "facility-association",
+    "legalUnderwriter": "Facility Association",
+    "insurerGroup": "Facility Association",
+    "brandOrProgram": "Facility Association",
+    "distributionType": "residual",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "facility-association",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Residual market pool; accessible only via a licensed broker/agent placing a risk the standard market has declined. Not directly quotable by an applicant — structurally manual_handoff.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "farm-mutual-reinsurance-plan",
+    "legalUnderwriter": "Farm Mutual Reinsurance Plan",
+    "insurerGroup": "Ontario Mutuals (FMRe)",
+    "brandOrProgram": "Ontario Mutuals locator",
+    "distributionType": "mutual",
+    "productScope": "unknown",
+    "distinctRateSourceId": "farm-mutual-reinsurance-plan",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Acts as a locator across individual Ontario farm mutuals, not an underwriter itself; route to the specific mutual once identified.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "gore-mutual-insurance-company",
+    "legalUnderwriter": "Gore Mutual Insurance Company",
+    "insurerGroup": "Gore",
+    "brandOrProgram": "Gore Mutual",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "gore-mutual-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "hartford-fire-insurance-company",
+    "legalUnderwriter": "Hartford Fire Insurance Company",
+    "insurerGroup": "Hartford",
+    "brandOrProgram": "The Hartford",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "hartford-fire-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Specialty/commercial-leaning; validate Ontario standard PPA relevance.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "heartland-farm-mutual-inc",
+    "legalUnderwriter": "Heartland Farm Mutual Inc.",
+    "insurerGroup": "Heartland",
+    "brandOrProgram": "Heartland Farm Mutual",
+    "distributionType": "mutual",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "heartland-farm-mutual-inc",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "belair-insurance-company-inc",
+    "legalUnderwriter": "Belair Insurance Company Inc.",
+    "insurerGroup": "Intact",
+    "brandOrProgram": "belairdirect",
+    "distributionType": "direct",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "belair-insurance-company-inc",
+    "quoteUrl": "https://www.belairdirect.com",
+    "sourceUrl": "https://www.belairdirect.com",
+    "requirements": [
+      "licence",
+      "VIN"
+    ],
+    "automationNotes": "Playwright probe priority 3 (§3a.5) — major direct writer, online journey.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "the-guarantee-company-of-north-america",
+    "legalUnderwriter": "The Guarantee Company of North America",
+    "insurerGroup": "Intact",
+    "brandOrProgram": "Intact (The Guarantee)",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "the-guarantee-company-of-north-america",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Validate current Ontario PPA relevance vs. specialty/surety focus.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "intact-insurance-company",
+    "legalUnderwriter": "Intact Insurance Company",
+    "insurerGroup": "Intact",
+    "brandOrProgram": "Intact",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "intact-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "jevco-insurance-company",
+    "legalUnderwriter": "Jevco Insurance Company",
+    "insurerGroup": "Intact",
+    "brandOrProgram": "Intact (Jevco)",
+    "distributionType": "broker",
+    "productScope": "nonstandard_PPA",
+    "distinctRateSourceId": "jevco-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "novex-insurance-company",
+    "legalUnderwriter": "Novex Insurance Company",
+    "insurerGroup": "Intact",
+    "brandOrProgram": "Intact (Novex)",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "novex-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Validate legacy/affinity program status.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "royal-and-sun-alliance-insurance-company-of-canada",
+    "legalUnderwriter": "Royal & Sun Alliance Insurance Company of Canada",
+    "insurerGroup": "Intact",
+    "brandOrProgram": "Intact (RSA legacy)",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "royal-and-sun-alliance-insurance-company-of-canada",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Legacy RSA entity absorbed into Intact; validate active status.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "unifund-assurance-company",
+    "legalUnderwriter": "Unifund Assurance Company",
+    "insurerGroup": "Intact",
+    "brandOrProgram": "Intact (Unifund)",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "unifund-assurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Historically affinity-distributed (CAA-adjacent); validate current channel.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "western-assurance-company",
+    "legalUnderwriter": "Western Assurance Company",
+    "insurerGroup": "Intact",
+    "brandOrProgram": "Intact (Western Assurance)",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "western-assurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Validate active Ontario PPA status.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "liberty-mutual-insurance-company",
+    "legalUnderwriter": "Liberty Mutual Insurance Company",
+    "insurerGroup": "Liberty",
+    "brandOrProgram": "Liberty Mutual",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "liberty-mutual-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Specialty/commercial-leaning; validate Ontario standard PPA relevance.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "federated-insurance-company-of-canada",
+    "legalUnderwriter": "Federated Insurance Company of Canada",
+    "insurerGroup": "Northbridge",
+    "brandOrProgram": "Federated Insurance",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "federated-insurance-company-of-canada",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Primarily commercial specialty; validate PPA relevance.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "northbridge-general-insurance-corporation",
+    "legalUnderwriter": "Northbridge General Insurance Corporation",
+    "insurerGroup": "Northbridge",
+    "brandOrProgram": "Northbridge",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "northbridge-general-insurance-corporation",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Primarily commercial; validate PPA relevance.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "verassure-insurance-company",
+    "legalUnderwriter": "Verassure Insurance Company",
+    "insurerGroup": "Northbridge",
+    "brandOrProgram": "Northbridge (Verassure)",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "verassure-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Validate active status and PPA relevance.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "zenith-insurance-company",
+    "legalUnderwriter": "Zenith Insurance Company",
+    "insurerGroup": "Northbridge",
+    "brandOrProgram": "Zenith",
+    "distributionType": "broker",
+    "productScope": "nonstandard_PPA",
+    "distinctRateSourceId": "zenith-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "optimum-insurance-company-inc",
+    "legalUnderwriter": "Optimum Insurance Company Inc.",
+    "insurerGroup": "Optimum",
+    "brandOrProgram": "Optimum",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "optimum-insurance-company-inc",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "pure-insurance",
+    "legalUnderwriter": "PURE Insurance",
+    "insurerGroup": "PURE",
+    "brandOrProgram": "PURE",
+    "distributionType": "broker",
+    "productScope": "high_net_worth",
+    "distinctRateSourceId": "pure-insurance",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "peel-mutual-insurance-company",
+    "legalUnderwriter": "Peel Mutual Insurance Company",
+    "insurerGroup": "Peel",
+    "brandOrProgram": "Peel Mutual",
+    "distributionType": "mutual",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "peel-mutual-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "the-portage-la-prairie-mutual-insurance-company",
+    "legalUnderwriter": "The Portage la Prairie Mutual Insurance Company",
+    "insurerGroup": "Portage",
+    "brandOrProgram": "Portage Mutual",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "the-portage-la-prairie-mutual-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "coachman-insurance-company",
+    "legalUnderwriter": "Coachman Insurance Company",
+    "insurerGroup": "SGI",
+    "brandOrProgram": "Coachman",
+    "distributionType": "broker",
+    "productScope": "nonstandard_PPA",
+    "distinctRateSourceId": "coachman-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "sgi-canada-insurance-services-ltd",
+    "legalUnderwriter": "SGI CANADA Insurance Services Ltd.",
+    "insurerGroup": "SGI",
+    "brandOrProgram": "SGI Canada",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "sgi-canada-insurance-services-ltd",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "endurance-specialty-insurance-company",
+    "legalUnderwriter": "Endurance Specialty Insurance Company",
+    "insurerGroup": "Sompo",
+    "brandOrProgram": "Endurance (Sompo)",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "endurance-specialty-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Specialty/commercial-leaning; validate PPA relevance.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "sompo-japan-insurance-inc",
+    "legalUnderwriter": "Sompo Japan Insurance Inc.",
+    "insurerGroup": "Sompo",
+    "brandOrProgram": "Sompo Japan",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "sompo-japan-insurance-inc",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Specialty/commercial-leaning; validate PPA relevance.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "primmum-insurance-company",
+    "legalUnderwriter": "Primmum Insurance Company",
+    "insurerGroup": "TD",
+    "brandOrProgram": "TD Insurance (Primmum)",
+    "distributionType": "direct",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "primmum-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "security-national-insurance-company",
+    "legalUnderwriter": "Security National Insurance Company",
+    "insurerGroup": "TD",
+    "brandOrProgram": "TD Insurance (Security National)",
+    "distributionType": "affinity",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "security-national-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "membership"
+    ],
+    "automationNotes": "Historically affinity/group-plan distributed; validate current channel.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "td-general-insurance-company",
+    "legalUnderwriter": "TD General Insurance Company",
+    "insurerGroup": "TD",
+    "brandOrProgram": "TD Insurance",
+    "distributionType": "direct",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "td-general-insurance-company",
+    "quoteUrl": "https://www.tdinsurance.com",
+    "sourceUrl": "https://www.tdinsurance.com",
+    "requirements": [
+      "licence",
+      "VIN"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "tokio-marine-and-nichido-fire-insurance-co-ltd",
+    "legalUnderwriter": "Tokio Marine and Nichido Fire Insurance Co., Ltd.",
+    "insurerGroup": "Tokio",
+    "brandOrProgram": "Tokio Marine",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "tokio-marine-and-nichido-fire-insurance-co-ltd",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Specialty/commercial-leaning; validate PPA relevance.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "the-dominion-of-canada-general-insurance-company",
+    "legalUnderwriter": "The Dominion of Canada General Insurance Company",
+    "insurerGroup": "Travelers",
+    "brandOrProgram": "Travelers (Dominion)",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "the-dominion-of-canada-general-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "the-wawanesa-mutual-insurance-company",
+    "legalUnderwriter": "The Wawanesa Mutual Insurance Company",
+    "insurerGroup": "Wawanesa",
+    "brandOrProgram": "Wawanesa",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "the-wawanesa-mutual-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Brief marks broker channel for Ontario; validate whether wawanesa.com offers direct ON PPA quoting.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "xl-specialty-insurance-company",
+    "legalUnderwriter": "XL Specialty Insurance Company",
+    "insurerGroup": "XL",
+    "brandOrProgram": "XL (AXA XL)",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "xl-specialty-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Specialty/commercial-leaning; validate PPA relevance.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "zurich-insurance-company",
+    "legalUnderwriter": "Zurich Insurance Company",
+    "insurerGroup": "Zurich",
+    "brandOrProgram": "Zurich",
+    "distributionType": "broker",
+    "productScope": "unknown",
+    "distinctRateSourceId": "zurich-insurance-company",
+    "requirements": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "automationNotes": "Specialty/broker routes for Zurich itself; the Ontario-car-relevant route is Square One (see supplemental row) which underwrites through Zurich.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "zurich-insurance-company-via-square-one-insurance-services-mga",
+    "legalUnderwriter": "Zurich Insurance Company (via Square One Insurance Services MGA)",
+    "insurerGroup": "Zurich",
+    "brandOrProgram": "Square One",
+    "distributionType": "MGA_program",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "zurich-insurance-company-via-square-one-insurance-services-mga",
+    "quoteUrl": "https://www.squareone.ca",
+    "sourceUrl": "https://www.squareone.ca",
+    "requirements": [
+      "licence",
+      "VIN"
+    ],
+    "automationNotes": "Playwright probe priority 2 (§3a.5) — online, direct, modern flow, underwritten by Zurich. Named in brief's Appendix A note under Zurich, not as its own Appendix A group.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "rbc-insurance",
+    "legalUnderwriter": "RBC Insurance",
+    "insurerGroup": "RBC",
+    "brandOrProgram": "RBC Insurance",
+    "distributionType": "direct",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "rbc-insurance",
+    "quoteUrl": "https://www.rbcinsurance.com",
+    "sourceUrl": "https://www.rbcinsurance.com",
+    "requirements": [
+      "licence",
+      "VIN"
+    ],
+    "automationNotes": "Named in brief's direct/exclusive-agent route strategy but not among the 32 Appendix A groups; added for market completeness.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "lowestrates-ca-brokerage-aggregator",
+    "legalUnderwriter": "LowestRates.ca (brokerage aggregator)",
+    "insurerGroup": "LowestRates.ca",
+    "brandOrProgram": "LowestRates.ca",
+    "distributionType": "aggregator",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "lowestrates-ca-brokerage-aggregator",
+    "quoteUrl": "https://www.lowestrates.ca",
+    "sourceUrl": "https://www.lowestrates.ca",
+    "requirements": [
+      "licence"
+    ],
+    "automationNotes": "Broad broker engine A. Brief names its panel as including CAA, Coachman, Economical, Gore, Pafco, Pembridge, SGI, Travelers, Zenith — those carriers already have their own registry rows; do not double-count, cross-reference distinct_rate_source_id instead. Verify panel live.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "rates-ca-brokerage-aggregator",
+    "legalUnderwriter": "Rates.ca (brokerage aggregator)",
+    "insurerGroup": "Rates.ca",
+    "brandOrProgram": "Rates.ca",
+    "distributionType": "aggregator",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "rates-ca-brokerage-aggregator",
+    "quoteUrl": "https://www.rates.ca",
+    "sourceUrl": "https://www.rates.ca",
+    "requirements": [
+      "licence"
+    ],
+    "automationNotes": "Alternative broad broker engine to LowestRates.ca per route strategy; pick one as primary live probe.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "surex-brokerage-aggregator",
+    "legalUnderwriter": "Surex (brokerage aggregator)",
+    "insurerGroup": "Surex",
+    "brandOrProgram": "Surex",
+    "distributionType": "aggregator",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "surex-brokerage-aggregator",
+    "quoteUrl": "https://www.surex.com",
+    "sourceUrl": "https://www.surex.com",
+    "requirements": [
+      "licence"
+    ],
+    "automationNotes": "Broad broker engine B. Brief names its panel as including Aviva, Intact, Jevco, Wawanesa, CAA, Coachman, Definity/Economical, Gore, Pafco, Pembridge, SGI, Travelers — cross-reference existing rows rather than double-counting; panel subject to live profile.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "thinkinsure-ribo-licensed-broker",
+    "legalUnderwriter": "ThinkInsure (RIBO-licensed broker)",
+    "insurerGroup": "ThinkInsure",
+    "brandOrProgram": "ThinkInsure",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "thinkinsure-ribo-licensed-broker",
+    "quoteUrl": "https://www.thinkinsure.ca",
+    "sourceUrl": "https://www.thinkinsure.ca",
+    "requirements": [
+      "licence",
+      "human"
+    ],
+    "automationNotes": "Independent broker verifier. Ontario law requires RIBO-licensed brokers to disclose their full carrier list and obtained quotes on request — ask once, preserve as evidence (bounded-attempt policy, §Appendix).",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "onlia-insurance-company-aviva-backed-digital-insurer",
+    "legalUnderwriter": "Onlia Insurance Company (Aviva-backed digital insurer)",
+    "insurerGroup": "Onlia",
+    "brandOrProgram": "Onlia",
+    "distributionType": "direct",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "onlia-insurance-company-aviva-backed-digital-insurer",
+    "quoteUrl": "https://www.onlia.ca",
+    "sourceUrl": "https://www.onlia.ca",
+    "requirements": [
+      "licence",
+      "VIN"
+    ],
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "scoop-insurance-independent-broker-verifier-candidate",
+    "legalUnderwriter": "Scoop Insurance (independent broker verifier candidate)",
+    "insurerGroup": "Scoop",
+    "brandOrProgram": "Scoop",
+    "distributionType": "broker",
+    "productScope": "standard_PPA",
+    "distinctRateSourceId": "scoop-insurance-independent-broker-verifier-candidate",
+    "requirements": [
+      "licence",
+      "human"
+    ],
+    "automationNotes": "Named as an independent-broker-verifier candidate in the brief; confirm live domain and RIBO licensing during verification.",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  },
+  {
+    "registryId": "hagerty-canada-collector-program-underwritten-by-aviva",
+    "legalUnderwriter": "Hagerty Canada (collector program, underwritten by Aviva)",
+    "insurerGroup": "Hagerty",
+    "brandOrProgram": "Hagerty",
+    "distributionType": "MGA_program",
+    "productScope": "collector",
+    "distinctRateSourceId": "hagerty-canada-collector-program-underwritten-by-aviva",
+    "quoteUrl": "https://www.hagerty.ca",
+    "sourceUrl": "https://www.hagerty.ca",
+    "requirements": [
+      "licence",
+      "VIN"
+    ],
+    "automationNotes": "Collector-vehicle program. Participant owns no vehicle, so this route is expected to resolve ineligible/specialty_only regardless of underwriting depth — a useful contrast case (§4 route-planner example).",
+    "status": "unresolved",
+    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "verifiedDuringHackathonWindow": false
+  }
+]

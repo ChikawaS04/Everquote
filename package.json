@@ -1,0 +1,23 @@
+{
+  "name": "ontario-all-quote-agent",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Ontario All-Quote Agent — agentic market-discovery and honest-accounting tool for Ontario PPA auto insurance",
+  "workspaces": [
+    "schema",
+    "registry",
+    "planner",
+    "agents/browser",
+    "agents/voice",
+    "normalizer",
+    "vault",
+    "dashboard"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "registry:build": "npm run build --workspace registry && node registry/dist/build.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

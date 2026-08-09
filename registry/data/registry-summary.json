@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-08-09T18:26:27.165Z",
+  "appendixA": {
+    "rawTokenCount": 60,
+    "distinctLegalEntityCount": 59,
+    "mergedGroups": [
+      {
+        "legalUnderwriter": "Scottish & York Insurance Company",
+        "rawTokens": [
+          "S&Y",
+          "Scottish & York"
+        ]
+      }
+    ],
+    "reconciliationOk": true
+  },
+  "supplementalRoutes": {
+    "note": "Distribution routes named in the brief's Route Strategy / gap-fill notes, not additional rows in the Appendix A regulator-facing seed list — kept as a separate layer, never blended into the Appendix A count above.",
+    "count": 9,
+    "brands": [
+      "Square One",
+      "RBC Insurance",
+      "LowestRates.ca",
+      "Rates.ca",
+      "Surex",
+      "ThinkInsure",
+      "Onlia",
+      "Scoop",
+      "Hagerty"
+    ]
+  },
+  "totalRegistryRows": 68
+}

@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.log
+
+# vault-managed secrets never get committed
+/vault/store/
+
+# evidence artifacts are generated at runtime; keep the folder, not raw captures
+/evidence/screenshots/
+/evidence/raw/
+
+.DS_Store
+Thumbs.db
