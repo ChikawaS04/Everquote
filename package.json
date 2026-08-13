@@ -15,7 +15,11 @@
   ],
   "scripts": {
     "build": "npm run build --workspaces --if-present",
-    "registry:build": "npm run build --workspace registry && node registry/dist/build.js"
+    "registry:build": "npm run build --workspace registry && node registry/dist/build.js",
+    "planner:build": "npm run build --workspace planner && node planner/dist/build.js",
+    "normalizer:build": "npm run build --workspace normalizer && node normalizer/dist/build.js",
+    "pipeline": "npm run registry:build && npm run planner:build && npm run normalizer:build && npm run build --workspace dashboard",
+    "dashboard:dev": "npm run dev --workspace dashboard"
   },
   "engines": {
     "node": ">=20"

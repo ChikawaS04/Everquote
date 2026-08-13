@@ -13,5 +13,9 @@ dist/
 /evidence/screenshots/
 /evidence/raw/
 
+# dashboard's public copy is synced from /normalizer/data at dev/build time —
+# /normalizer/data/normalized-output.json is the committed source of truth
+/dashboard/public/data/
+
 .DS_Store
 Thumbs.db

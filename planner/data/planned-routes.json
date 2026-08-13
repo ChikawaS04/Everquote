@@ -1,0 +1,868 @@
+[
+  {
+    "registryId": "aig-insurance-company-of-canada",
+    "distinctRateSourceId": "aig-insurance-company-of-canada",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "allstate-insurance-company-of-canada",
+    "distinctRateSourceId": "allstate-insurance-company-of-canada",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "esurance-insurance-company-of-canada",
+    "distinctRateSourceId": "esurance-insurance-company-of-canada",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "pafco-insurance-company",
+    "distinctRateSourceId": "pafco-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "pembridge-insurance-company",
+    "distinctRateSourceId": "pembridge-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "aviva-general-insurance-company",
+    "distinctRateSourceId": "aviva-general-insurance-company",
+    "plannedAction": "attempt_online_estimate",
+    "predictedStatus": "estimate_only",
+    "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "aviva-insurance-company-of-canada",
+    "distinctRateSourceId": "aviva-insurance-company-of-canada",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "scottish-and-york-insurance-company",
+    "distinctRateSourceId": "scottish-and-york-insurance-company",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "traders-general-insurance-company",
+    "distinctRateSourceId": "traders-general-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "unica-insurance-inc",
+    "distinctRateSourceId": "unica-insurance-inc",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "caa-insurance-company",
+    "distinctRateSourceId": "caa-insurance-company",
+    "plannedAction": "affinity_verification_required",
+    "predictedStatus": "affinity_restricted",
+    "rationale": "Route requires a group/employer/membership relationship; participant holds no group/employer/membership relationship.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "membership"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "echelon-insurance",
+    "distinctRateSourceId": "echelon-insurance",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "chubb-insurance-company-of-canada",
+    "distinctRateSourceId": "chubb-insurance-company-of-canada",
+    "plannedAction": "specialty_ineligible",
+    "predictedStatus": "specialty_only",
+    "rationale": "Route is scoped to high_net_worth, which this profile (G1 licence, no vehicle) does not match — it does not write standard PPA for this applicant regardless of underwriting depth.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "coseco-insurance-company",
+    "distinctRateSourceId": "coseco-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "cumis-general-insurance-company",
+    "distinctRateSourceId": "cumis-general-insurance-company",
+    "plannedAction": "affinity_verification_required",
+    "predictedStatus": "affinity_restricted",
+    "rationale": "Route requires a group/employer/membership relationship; participant holds no group/employer/membership relationship.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "membership"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "co-operators-general-insurance-company",
+    "distinctRateSourceId": "co-operators-general-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "the-sovereign-general-insurance-company",
+    "distinctRateSourceId": "the-sovereign-general-insurance-company",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "the-commonwell-mutual-insurance-group",
+    "distinctRateSourceId": "the-commonwell-mutual-insurance-group",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "continental-casualty-company",
+    "distinctRateSourceId": "continental-casualty-company",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "definity-insurance-company",
+    "distinctRateSourceId": "definity-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "sonnet-insurance-company",
+    "distinctRateSourceId": "sonnet-insurance-company",
+    "plannedAction": "attempt_online_estimate",
+    "predictedStatus": "estimate_only",
+    "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "certas-direct-insurance-company",
+    "distinctRateSourceId": "certas-direct-insurance-company",
+    "plannedAction": "attempt_online_estimate",
+    "predictedStatus": "estimate_only",
+    "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "certas-home-and-auto-insurance-company",
+    "distinctRateSourceId": "certas-home-and-auto-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "the-personal-insurance-company",
+    "distinctRateSourceId": "the-personal-insurance-company",
+    "plannedAction": "affinity_verification_required",
+    "predictedStatus": "affinity_restricted",
+    "rationale": "Route requires a group/employer/membership relationship; participant holds no group/employer/membership relationship.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "membership"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "economical-mutual-insurance-company",
+    "distinctRateSourceId": "economical-mutual-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "facility-association",
+    "distinctRateSourceId": "facility-association",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Residual-market pool: accessible only via a licensed broker placing a risk the standard market has declined, never directly quotable by an applicant.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "farm-mutual-reinsurance-plan",
+    "distinctRateSourceId": "farm-mutual-reinsurance-plan",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "gore-mutual-insurance-company",
+    "distinctRateSourceId": "gore-mutual-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "hartford-fire-insurance-company",
+    "distinctRateSourceId": "hartford-fire-insurance-company",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "heartland-farm-mutual-inc",
+    "distinctRateSourceId": "heartland-farm-mutual-inc",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "belair-insurance-company-inc",
+    "distinctRateSourceId": "belair-insurance-company-inc",
+    "plannedAction": "attempt_online_estimate",
+    "predictedStatus": "estimate_only",
+    "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "the-guarantee-company-of-north-america",
+    "distinctRateSourceId": "the-guarantee-company-of-north-america",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "intact-insurance-company",
+    "distinctRateSourceId": "intact-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "jevco-insurance-company",
+    "distinctRateSourceId": "jevco-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "novex-insurance-company",
+    "distinctRateSourceId": "novex-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "royal-and-sun-alliance-insurance-company-of-canada",
+    "distinctRateSourceId": "royal-and-sun-alliance-insurance-company-of-canada",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "unifund-assurance-company",
+    "distinctRateSourceId": "unifund-assurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "western-assurance-company",
+    "distinctRateSourceId": "western-assurance-company",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "liberty-mutual-insurance-company",
+    "distinctRateSourceId": "liberty-mutual-insurance-company",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "federated-insurance-company-of-canada",
+    "distinctRateSourceId": "federated-insurance-company-of-canada",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "northbridge-general-insurance-corporation",
+    "distinctRateSourceId": "northbridge-general-insurance-corporation",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "verassure-insurance-company",
+    "distinctRateSourceId": "verassure-insurance-company",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "zenith-insurance-company",
+    "distinctRateSourceId": "zenith-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "optimum-insurance-company-inc",
+    "distinctRateSourceId": "optimum-insurance-company-inc",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "pure-insurance",
+    "distinctRateSourceId": "pure-insurance",
+    "plannedAction": "specialty_ineligible",
+    "predictedStatus": "specialty_only",
+    "rationale": "Route is scoped to high_net_worth, which this profile (G1 licence, no vehicle) does not match — it does not write standard PPA for this applicant regardless of underwriting depth.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "peel-mutual-insurance-company",
+    "distinctRateSourceId": "peel-mutual-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "the-portage-la-prairie-mutual-insurance-company",
+    "distinctRateSourceId": "the-portage-la-prairie-mutual-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "coachman-insurance-company",
+    "distinctRateSourceId": "coachman-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "sgi-canada-insurance-services-ltd",
+    "distinctRateSourceId": "sgi-canada-insurance-services-ltd",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "endurance-specialty-insurance-company",
+    "distinctRateSourceId": "endurance-specialty-insurance-company",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "sompo-japan-insurance-inc",
+    "distinctRateSourceId": "sompo-japan-insurance-inc",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "primmum-insurance-company",
+    "distinctRateSourceId": "primmum-insurance-company",
+    "plannedAction": "attempt_online_estimate",
+    "predictedStatus": "estimate_only",
+    "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "security-national-insurance-company",
+    "distinctRateSourceId": "security-national-insurance-company",
+    "plannedAction": "affinity_verification_required",
+    "predictedStatus": "affinity_restricted",
+    "rationale": "Route requires a group/employer/membership relationship; participant holds no group/employer/membership relationship.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "membership"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "td-general-insurance-company",
+    "distinctRateSourceId": "td-general-insurance-company",
+    "plannedAction": "attempt_online_estimate",
+    "predictedStatus": "estimate_only",
+    "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "tokio-marine-and-nichido-fire-insurance-co-ltd",
+    "distinctRateSourceId": "tokio-marine-and-nichido-fire-insurance-co-ltd",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "the-dominion-of-canada-general-insurance-company",
+    "distinctRateSourceId": "the-dominion-of-canada-general-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "the-wawanesa-mutual-insurance-company",
+    "distinctRateSourceId": "the-wawanesa-mutual-insurance-company",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "xl-specialty-insurance-company",
+    "distinctRateSourceId": "xl-specialty-insurance-company",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "zurich-insurance-company",
+    "distinctRateSourceId": "zurich-insurance-company",
+    "plannedAction": "needs_validation",
+    "predictedStatus": "unresolved",
+    "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "zurich-insurance-company-via-square-one-insurance-services-mga",
+    "distinctRateSourceId": "zurich-insurance-company-via-square-one-insurance-services-mga",
+    "plannedAction": "attempt_online_estimate",
+    "predictedStatus": "estimate_only",
+    "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "rbc-insurance",
+    "distinctRateSourceId": "rbc-insurance",
+    "plannedAction": "attempt_online_estimate",
+    "predictedStatus": "estimate_only",
+    "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "lowestrates-ca-brokerage-aggregator",
+    "distinctRateSourceId": "lowestrates-ca-brokerage-aggregator",
+    "plannedAction": "attempt_online_estimate",
+    "predictedStatus": "estimate_only",
+    "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+    "requirementsConsidered": [
+      "licence"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "rates-ca-brokerage-aggregator",
+    "distinctRateSourceId": "rates-ca-brokerage-aggregator",
+    "plannedAction": "attempt_online_estimate",
+    "predictedStatus": "estimate_only",
+    "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+    "requirementsConsidered": [
+      "licence"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "surex-brokerage-aggregator",
+    "distinctRateSourceId": "surex-brokerage-aggregator",
+    "plannedAction": "attempt_online_estimate",
+    "predictedStatus": "estimate_only",
+    "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+    "requirementsConsidered": [
+      "licence"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "thinkinsure-ribo-licensed-broker",
+    "distinctRateSourceId": "thinkinsure-ribo-licensed-broker",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "onlia-insurance-company-aviva-backed-digital-insurer",
+    "distinctRateSourceId": "onlia-insurance-company-aviva-backed-digital-insurer",
+    "plannedAction": "attempt_online_estimate",
+    "predictedStatus": "estimate_only",
+    "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "scoop-insurance-independent-broker-verifier-candidate",
+    "distinctRateSourceId": "scoop-insurance-independent-broker-verifier-candidate",
+    "plannedAction": "manual_handoff",
+    "predictedStatus": "manual_handoff",
+    "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+    "requirementsConsidered": [
+      "licence",
+      "human"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  },
+  {
+    "registryId": "hagerty-canada-collector-program-underwritten-by-aviva",
+    "distinctRateSourceId": "hagerty-canada-collector-program-underwritten-by-aviva",
+    "plannedAction": "specialty_ineligible",
+    "predictedStatus": "specialty_only",
+    "rationale": "Route is scoped to collector, which this profile (G1 licence, no vehicle) does not match — it does not write standard PPA for this applicant regardless of underwriting depth.",
+    "requirementsConsidered": [
+      "licence",
+      "VIN"
+    ],
+    "plannedAt": "2026-08-13T03:03:54.835Z"
+  }
+]

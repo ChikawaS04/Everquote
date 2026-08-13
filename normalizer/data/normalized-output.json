@@ -1,0 +1,2032 @@
+{
+  "generatedAt": "2026-08-13T03:03:55.829Z",
+  "benchmark": {
+    "benchmarkId": "oaqa-demo-benchmark-2026",
+    "version": "1.0.0",
+    "thirdPartyLiability": 2000000,
+    "dcpdIncluded": true,
+    "mandatoryAccidentBenefits": "medical_rehab_attendant_care_only",
+    "collisionDeductible": 1000,
+    "comprehensiveDeductible": 1000,
+    "familyProtectionOpcf44R": true,
+    "telematicsOptIn": false,
+    "termMonths": 12,
+    "optionalAccidentBenefits": {
+      "incomeReplacement": "excluded",
+      "nonEarner": "excluded",
+      "caregiver": "excluded",
+      "housekeeping": "excluded",
+      "death": "excluded",
+      "funeral": "excluded",
+      "dependantCare": "excluded",
+      "indexation": "excluded",
+      "catastrophicImpairment": "excluded"
+    },
+    "endorsements": {
+      "opcf20TransportationReplacement": "excluded",
+      "opcf27NonOwnedAutos": "excluded",
+      "opcf43RemovingDepreciation": "excluded",
+      "opcf44rFamilyProtection": "included",
+      "opcf49DcpdOptOut": "excluded"
+    }
+  },
+  "metrics": {
+    "marketCompletion": 0,
+    "comparableQuoteYield": 0,
+    "evidenceRate": 0,
+    "duplicateSuppression": 0.016666666666666666,
+    "freshness": 0,
+    "computedAt": "2026-08-13T03:03:55.829Z"
+  },
+  "results": [
+    {
+      "resultId": "prediction-aig-insurance-company-of-canada",
+      "source": {
+        "registryId": "aig-insurance-company-of-canada",
+        "distinctRateSourceId": "aig-insurance-company-of-canada",
+        "brand": "AIG",
+        "legalUnderwriter": "AIG Insurance Company of Canada",
+        "insurerGroup": "AIG",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-allstate-insurance-company-of-canada",
+      "source": {
+        "registryId": "allstate-insurance-company-of-canada",
+        "distinctRateSourceId": "allstate-insurance-company-of-canada",
+        "brand": "Allstate",
+        "legalUnderwriter": "Allstate Insurance Company of Canada",
+        "insurerGroup": "Allstate",
+        "distributionType": "agent"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "targetQuoteUrl": "https://www.allstate.ca",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-esurance-insurance-company-of-canada",
+      "source": {
+        "registryId": "esurance-insurance-company-of-canada",
+        "distinctRateSourceId": "esurance-insurance-company-of-canada",
+        "brand": "Esurance",
+        "legalUnderwriter": "Esurance Insurance Company of Canada",
+        "insurerGroup": "Allstate",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-pafco-insurance-company",
+      "source": {
+        "registryId": "pafco-insurance-company",
+        "distinctRateSourceId": "pafco-insurance-company",
+        "brand": "Pafco",
+        "legalUnderwriter": "Pafco Insurance Company",
+        "insurerGroup": "Allstate",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-pembridge-insurance-company",
+      "source": {
+        "registryId": "pembridge-insurance-company",
+        "distinctRateSourceId": "pembridge-insurance-company",
+        "brand": "Pembridge",
+        "legalUnderwriter": "Pembridge Insurance Company",
+        "insurerGroup": "Allstate",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-aviva-general-insurance-company",
+      "source": {
+        "registryId": "aviva-general-insurance-company",
+        "distinctRateSourceId": "aviva-general-insurance-company",
+        "brand": "Aviva Direct",
+        "legalUnderwriter": "Aviva General Insurance Company",
+        "insurerGroup": "Aviva",
+        "distributionType": "direct"
+      },
+      "status": "estimate_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "attempt_online_estimate",
+        "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+        "targetQuoteUrl": "https://www.aviva.ca",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-aviva-insurance-company-of-canada",
+      "source": {
+        "registryId": "aviva-insurance-company-of-canada",
+        "distinctRateSourceId": "aviva-insurance-company-of-canada",
+        "brand": "Aviva (broker channel)",
+        "legalUnderwriter": "Aviva Insurance Company of Canada",
+        "insurerGroup": "Aviva",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-scottish-and-york-insurance-company",
+      "source": {
+        "registryId": "scottish-and-york-insurance-company",
+        "distinctRateSourceId": "scottish-and-york-insurance-company",
+        "brand": "Aviva legacy (Scottish & York / S&Y)",
+        "legalUnderwriter": "Scottish & York Insurance Company",
+        "insurerGroup": "Aviva",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-traders-general-insurance-company",
+      "source": {
+        "registryId": "traders-general-insurance-company",
+        "distinctRateSourceId": "traders-general-insurance-company",
+        "brand": "Aviva (Traders General)",
+        "legalUnderwriter": "Traders General Insurance Company",
+        "insurerGroup": "Aviva",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-unica-insurance-inc",
+      "source": {
+        "registryId": "unica-insurance-inc",
+        "distinctRateSourceId": "unica-insurance-inc",
+        "brand": "Unica (Beneva)",
+        "legalUnderwriter": "Unica Insurance Inc.",
+        "insurerGroup": "Beneva",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-caa-insurance-company",
+      "source": {
+        "registryId": "caa-insurance-company",
+        "distinctRateSourceId": "caa-insurance-company",
+        "brand": "CAA",
+        "legalUnderwriter": "CAA Insurance Company",
+        "insurerGroup": "CAA",
+        "distributionType": "affinity"
+      },
+      "status": "affinity_restricted",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "affinity_verification_required",
+        "rationale": "Route requires a group/employer/membership relationship; participant holds no group/employer/membership relationship.",
+        "targetQuoteUrl": "https://www.caa.ca",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-echelon-insurance",
+      "source": {
+        "registryId": "echelon-insurance",
+        "distinctRateSourceId": "echelon-insurance",
+        "brand": "Echelon",
+        "legalUnderwriter": "Echelon Insurance",
+        "insurerGroup": "CAA",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-chubb-insurance-company-of-canada",
+      "source": {
+        "registryId": "chubb-insurance-company-of-canada",
+        "distinctRateSourceId": "chubb-insurance-company-of-canada",
+        "brand": "Chubb",
+        "legalUnderwriter": "Chubb Insurance Company of Canada",
+        "insurerGroup": "Chubb",
+        "distributionType": "broker"
+      },
+      "status": "specialty_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "specialty_ineligible",
+        "rationale": "Route is scoped to high_net_worth, which this profile (G1 licence, no vehicle) does not match — it does not write standard PPA for this applicant regardless of underwriting depth.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-coseco-insurance-company",
+      "source": {
+        "registryId": "coseco-insurance-company",
+        "distinctRateSourceId": "coseco-insurance-company",
+        "brand": "Co-operators (COSECO)",
+        "legalUnderwriter": "COSECO Insurance Company",
+        "insurerGroup": "Co-operators",
+        "distributionType": "agent"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-cumis-general-insurance-company",
+      "source": {
+        "registryId": "cumis-general-insurance-company",
+        "distinctRateSourceId": "cumis-general-insurance-company",
+        "brand": "Co-operators (CUMIS)",
+        "legalUnderwriter": "CUMIS General Insurance Company",
+        "insurerGroup": "Co-operators",
+        "distributionType": "affinity"
+      },
+      "status": "affinity_restricted",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "affinity_verification_required",
+        "rationale": "Route requires a group/employer/membership relationship; participant holds no group/employer/membership relationship.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-co-operators-general-insurance-company",
+      "source": {
+        "registryId": "co-operators-general-insurance-company",
+        "distinctRateSourceId": "co-operators-general-insurance-company",
+        "brand": "Co-operators",
+        "legalUnderwriter": "Co-operators General Insurance Company",
+        "insurerGroup": "Co-operators",
+        "distributionType": "agent"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "targetQuoteUrl": "https://www.cooperators.ca",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-the-sovereign-general-insurance-company",
+      "source": {
+        "registryId": "the-sovereign-general-insurance-company",
+        "distinctRateSourceId": "the-sovereign-general-insurance-company",
+        "brand": "Co-operators (Sovereign General)",
+        "legalUnderwriter": "The Sovereign General Insurance Company",
+        "insurerGroup": "Co-operators",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-the-commonwell-mutual-insurance-group",
+      "source": {
+        "registryId": "the-commonwell-mutual-insurance-group",
+        "distinctRateSourceId": "the-commonwell-mutual-insurance-group",
+        "brand": "Commonwell",
+        "legalUnderwriter": "The Commonwell Mutual Insurance Group",
+        "insurerGroup": "Commonwell",
+        "distributionType": "mutual"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-continental-casualty-company",
+      "source": {
+        "registryId": "continental-casualty-company",
+        "distinctRateSourceId": "continental-casualty-company",
+        "brand": "CNA",
+        "legalUnderwriter": "Continental Casualty Company",
+        "insurerGroup": "Continental (CNA)",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-definity-insurance-company",
+      "source": {
+        "registryId": "definity-insurance-company",
+        "distinctRateSourceId": "definity-insurance-company",
+        "brand": "Definity / Economical",
+        "legalUnderwriter": "Definity Insurance Company",
+        "insurerGroup": "Definity",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-sonnet-insurance-company",
+      "source": {
+        "registryId": "sonnet-insurance-company",
+        "distinctRateSourceId": "sonnet-insurance-company",
+        "brand": "Sonnet",
+        "legalUnderwriter": "Sonnet Insurance Company",
+        "insurerGroup": "Definity",
+        "distributionType": "direct"
+      },
+      "status": "estimate_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "attempt_online_estimate",
+        "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+        "targetQuoteUrl": "https://www.sonnet.ca",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-certas-direct-insurance-company",
+      "source": {
+        "registryId": "certas-direct-insurance-company",
+        "distinctRateSourceId": "certas-direct-insurance-company",
+        "brand": "Desjardins Insurance (direct)",
+        "legalUnderwriter": "Certas Direct Insurance Company",
+        "insurerGroup": "Desjardins",
+        "distributionType": "direct"
+      },
+      "status": "estimate_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "attempt_online_estimate",
+        "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+        "targetQuoteUrl": "https://www.desjardinsinsurance.com",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-certas-home-and-auto-insurance-company",
+      "source": {
+        "registryId": "certas-home-and-auto-insurance-company",
+        "distinctRateSourceId": "certas-home-and-auto-insurance-company",
+        "brand": "Desjardins Insurance (agent)",
+        "legalUnderwriter": "Certas Home and Auto Insurance Company",
+        "insurerGroup": "Desjardins",
+        "distributionType": "agent"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-the-personal-insurance-company",
+      "source": {
+        "registryId": "the-personal-insurance-company",
+        "distinctRateSourceId": "the-personal-insurance-company",
+        "brand": "The Personal",
+        "legalUnderwriter": "The Personal Insurance Company",
+        "insurerGroup": "Desjardins",
+        "distributionType": "affinity"
+      },
+      "status": "affinity_restricted",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "affinity_verification_required",
+        "rationale": "Route requires a group/employer/membership relationship; participant holds no group/employer/membership relationship.",
+        "targetQuoteUrl": "https://www.thepersonal.com",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-economical-mutual-insurance-company",
+      "source": {
+        "registryId": "economical-mutual-insurance-company",
+        "distinctRateSourceId": "economical-mutual-insurance-company",
+        "brand": "Economical",
+        "legalUnderwriter": "Economical Mutual Insurance Company",
+        "insurerGroup": "Economical",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-facility-association",
+      "source": {
+        "registryId": "facility-association",
+        "distinctRateSourceId": "facility-association",
+        "brand": "Facility Association",
+        "legalUnderwriter": "Facility Association",
+        "insurerGroup": "Facility Association",
+        "distributionType": "residual"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Residual-market pool: accessible only via a licensed broker placing a risk the standard market has declined, never directly quotable by an applicant.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-farm-mutual-reinsurance-plan",
+      "source": {
+        "registryId": "farm-mutual-reinsurance-plan",
+        "distinctRateSourceId": "farm-mutual-reinsurance-plan",
+        "brand": "Ontario Mutuals locator",
+        "legalUnderwriter": "Farm Mutual Reinsurance Plan",
+        "insurerGroup": "Ontario Mutuals (FMRe)",
+        "distributionType": "mutual"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-gore-mutual-insurance-company",
+      "source": {
+        "registryId": "gore-mutual-insurance-company",
+        "distinctRateSourceId": "gore-mutual-insurance-company",
+        "brand": "Gore Mutual",
+        "legalUnderwriter": "Gore Mutual Insurance Company",
+        "insurerGroup": "Gore",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-hartford-fire-insurance-company",
+      "source": {
+        "registryId": "hartford-fire-insurance-company",
+        "distinctRateSourceId": "hartford-fire-insurance-company",
+        "brand": "The Hartford",
+        "legalUnderwriter": "Hartford Fire Insurance Company",
+        "insurerGroup": "Hartford",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-heartland-farm-mutual-inc",
+      "source": {
+        "registryId": "heartland-farm-mutual-inc",
+        "distinctRateSourceId": "heartland-farm-mutual-inc",
+        "brand": "Heartland Farm Mutual",
+        "legalUnderwriter": "Heartland Farm Mutual Inc.",
+        "insurerGroup": "Heartland",
+        "distributionType": "mutual"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-belair-insurance-company-inc",
+      "source": {
+        "registryId": "belair-insurance-company-inc",
+        "distinctRateSourceId": "belair-insurance-company-inc",
+        "brand": "belairdirect",
+        "legalUnderwriter": "Belair Insurance Company Inc.",
+        "insurerGroup": "Intact",
+        "distributionType": "direct"
+      },
+      "status": "estimate_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "attempt_online_estimate",
+        "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+        "targetQuoteUrl": "https://www.belairdirect.com",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-the-guarantee-company-of-north-america",
+      "source": {
+        "registryId": "the-guarantee-company-of-north-america",
+        "distinctRateSourceId": "the-guarantee-company-of-north-america",
+        "brand": "Intact (The Guarantee)",
+        "legalUnderwriter": "The Guarantee Company of North America",
+        "insurerGroup": "Intact",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-intact-insurance-company",
+      "source": {
+        "registryId": "intact-insurance-company",
+        "distinctRateSourceId": "intact-insurance-company",
+        "brand": "Intact",
+        "legalUnderwriter": "Intact Insurance Company",
+        "insurerGroup": "Intact",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-jevco-insurance-company",
+      "source": {
+        "registryId": "jevco-insurance-company",
+        "distinctRateSourceId": "jevco-insurance-company",
+        "brand": "Intact (Jevco)",
+        "legalUnderwriter": "Jevco Insurance Company",
+        "insurerGroup": "Intact",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-novex-insurance-company",
+      "source": {
+        "registryId": "novex-insurance-company",
+        "distinctRateSourceId": "novex-insurance-company",
+        "brand": "Intact (Novex)",
+        "legalUnderwriter": "Novex Insurance Company",
+        "insurerGroup": "Intact",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-royal-and-sun-alliance-insurance-company-of-canada",
+      "source": {
+        "registryId": "royal-and-sun-alliance-insurance-company-of-canada",
+        "distinctRateSourceId": "royal-and-sun-alliance-insurance-company-of-canada",
+        "brand": "Intact (RSA legacy)",
+        "legalUnderwriter": "Royal & Sun Alliance Insurance Company of Canada",
+        "insurerGroup": "Intact",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-unifund-assurance-company",
+      "source": {
+        "registryId": "unifund-assurance-company",
+        "distinctRateSourceId": "unifund-assurance-company",
+        "brand": "Intact (Unifund)",
+        "legalUnderwriter": "Unifund Assurance Company",
+        "insurerGroup": "Intact",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-western-assurance-company",
+      "source": {
+        "registryId": "western-assurance-company",
+        "distinctRateSourceId": "western-assurance-company",
+        "brand": "Intact (Western Assurance)",
+        "legalUnderwriter": "Western Assurance Company",
+        "insurerGroup": "Intact",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-liberty-mutual-insurance-company",
+      "source": {
+        "registryId": "liberty-mutual-insurance-company",
+        "distinctRateSourceId": "liberty-mutual-insurance-company",
+        "brand": "Liberty Mutual",
+        "legalUnderwriter": "Liberty Mutual Insurance Company",
+        "insurerGroup": "Liberty",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-federated-insurance-company-of-canada",
+      "source": {
+        "registryId": "federated-insurance-company-of-canada",
+        "distinctRateSourceId": "federated-insurance-company-of-canada",
+        "brand": "Federated Insurance",
+        "legalUnderwriter": "Federated Insurance Company of Canada",
+        "insurerGroup": "Northbridge",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-northbridge-general-insurance-corporation",
+      "source": {
+        "registryId": "northbridge-general-insurance-corporation",
+        "distinctRateSourceId": "northbridge-general-insurance-corporation",
+        "brand": "Northbridge",
+        "legalUnderwriter": "Northbridge General Insurance Corporation",
+        "insurerGroup": "Northbridge",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-verassure-insurance-company",
+      "source": {
+        "registryId": "verassure-insurance-company",
+        "distinctRateSourceId": "verassure-insurance-company",
+        "brand": "Northbridge (Verassure)",
+        "legalUnderwriter": "Verassure Insurance Company",
+        "insurerGroup": "Northbridge",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-zenith-insurance-company",
+      "source": {
+        "registryId": "zenith-insurance-company",
+        "distinctRateSourceId": "zenith-insurance-company",
+        "brand": "Zenith",
+        "legalUnderwriter": "Zenith Insurance Company",
+        "insurerGroup": "Northbridge",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-optimum-insurance-company-inc",
+      "source": {
+        "registryId": "optimum-insurance-company-inc",
+        "distinctRateSourceId": "optimum-insurance-company-inc",
+        "brand": "Optimum",
+        "legalUnderwriter": "Optimum Insurance Company Inc.",
+        "insurerGroup": "Optimum",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-pure-insurance",
+      "source": {
+        "registryId": "pure-insurance",
+        "distinctRateSourceId": "pure-insurance",
+        "brand": "PURE",
+        "legalUnderwriter": "PURE Insurance",
+        "insurerGroup": "PURE",
+        "distributionType": "broker"
+      },
+      "status": "specialty_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "specialty_ineligible",
+        "rationale": "Route is scoped to high_net_worth, which this profile (G1 licence, no vehicle) does not match — it does not write standard PPA for this applicant regardless of underwriting depth.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-peel-mutual-insurance-company",
+      "source": {
+        "registryId": "peel-mutual-insurance-company",
+        "distinctRateSourceId": "peel-mutual-insurance-company",
+        "brand": "Peel Mutual",
+        "legalUnderwriter": "Peel Mutual Insurance Company",
+        "insurerGroup": "Peel",
+        "distributionType": "mutual"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-the-portage-la-prairie-mutual-insurance-company",
+      "source": {
+        "registryId": "the-portage-la-prairie-mutual-insurance-company",
+        "distinctRateSourceId": "the-portage-la-prairie-mutual-insurance-company",
+        "brand": "Portage Mutual",
+        "legalUnderwriter": "The Portage la Prairie Mutual Insurance Company",
+        "insurerGroup": "Portage",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-coachman-insurance-company",
+      "source": {
+        "registryId": "coachman-insurance-company",
+        "distinctRateSourceId": "coachman-insurance-company",
+        "brand": "Coachman",
+        "legalUnderwriter": "Coachman Insurance Company",
+        "insurerGroup": "SGI",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-sgi-canada-insurance-services-ltd",
+      "source": {
+        "registryId": "sgi-canada-insurance-services-ltd",
+        "distinctRateSourceId": "sgi-canada-insurance-services-ltd",
+        "brand": "SGI Canada",
+        "legalUnderwriter": "SGI CANADA Insurance Services Ltd.",
+        "insurerGroup": "SGI",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-endurance-specialty-insurance-company",
+      "source": {
+        "registryId": "endurance-specialty-insurance-company",
+        "distinctRateSourceId": "endurance-specialty-insurance-company",
+        "brand": "Endurance (Sompo)",
+        "legalUnderwriter": "Endurance Specialty Insurance Company",
+        "insurerGroup": "Sompo",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-sompo-japan-insurance-inc",
+      "source": {
+        "registryId": "sompo-japan-insurance-inc",
+        "distinctRateSourceId": "sompo-japan-insurance-inc",
+        "brand": "Sompo Japan",
+        "legalUnderwriter": "Sompo Japan Insurance Inc.",
+        "insurerGroup": "Sompo",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-primmum-insurance-company",
+      "source": {
+        "registryId": "primmum-insurance-company",
+        "distinctRateSourceId": "primmum-insurance-company",
+        "brand": "TD Insurance (Primmum)",
+        "legalUnderwriter": "Primmum Insurance Company",
+        "insurerGroup": "TD",
+        "distributionType": "direct"
+      },
+      "status": "estimate_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "attempt_online_estimate",
+        "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-security-national-insurance-company",
+      "source": {
+        "registryId": "security-national-insurance-company",
+        "distinctRateSourceId": "security-national-insurance-company",
+        "brand": "TD Insurance (Security National)",
+        "legalUnderwriter": "Security National Insurance Company",
+        "insurerGroup": "TD",
+        "distributionType": "affinity"
+      },
+      "status": "affinity_restricted",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "affinity_verification_required",
+        "rationale": "Route requires a group/employer/membership relationship; participant holds no group/employer/membership relationship.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-td-general-insurance-company",
+      "source": {
+        "registryId": "td-general-insurance-company",
+        "distinctRateSourceId": "td-general-insurance-company",
+        "brand": "TD Insurance",
+        "legalUnderwriter": "TD General Insurance Company",
+        "insurerGroup": "TD",
+        "distributionType": "direct"
+      },
+      "status": "estimate_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "attempt_online_estimate",
+        "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+        "targetQuoteUrl": "https://www.tdinsurance.com",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-tokio-marine-and-nichido-fire-insurance-co-ltd",
+      "source": {
+        "registryId": "tokio-marine-and-nichido-fire-insurance-co-ltd",
+        "distinctRateSourceId": "tokio-marine-and-nichido-fire-insurance-co-ltd",
+        "brand": "Tokio Marine",
+        "legalUnderwriter": "Tokio Marine and Nichido Fire Insurance Co., Ltd.",
+        "insurerGroup": "Tokio",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-the-dominion-of-canada-general-insurance-company",
+      "source": {
+        "registryId": "the-dominion-of-canada-general-insurance-company",
+        "distinctRateSourceId": "the-dominion-of-canada-general-insurance-company",
+        "brand": "Travelers (Dominion)",
+        "legalUnderwriter": "The Dominion of Canada General Insurance Company",
+        "insurerGroup": "Travelers",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-the-wawanesa-mutual-insurance-company",
+      "source": {
+        "registryId": "the-wawanesa-mutual-insurance-company",
+        "distinctRateSourceId": "the-wawanesa-mutual-insurance-company",
+        "brand": "Wawanesa",
+        "legalUnderwriter": "The Wawanesa Mutual Insurance Company",
+        "insurerGroup": "Wawanesa",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-xl-specialty-insurance-company",
+      "source": {
+        "registryId": "xl-specialty-insurance-company",
+        "distinctRateSourceId": "xl-specialty-insurance-company",
+        "brand": "XL (AXA XL)",
+        "legalUnderwriter": "XL Specialty Insurance Company",
+        "insurerGroup": "XL",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-zurich-insurance-company",
+      "source": {
+        "registryId": "zurich-insurance-company",
+        "distinctRateSourceId": "zurich-insurance-company",
+        "brand": "Zurich",
+        "legalUnderwriter": "Zurich Insurance Company",
+        "insurerGroup": "Zurich",
+        "distributionType": "broker"
+      },
+      "status": "unresolved",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "needs_validation",
+        "rationale": "Product scope not yet confirmed against Ontario standard PPA — routing here would be a guess, not a prediction; needs live validation first.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-zurich-insurance-company-via-square-one-insurance-services-mga",
+      "source": {
+        "registryId": "zurich-insurance-company-via-square-one-insurance-services-mga",
+        "distinctRateSourceId": "zurich-insurance-company-via-square-one-insurance-services-mga",
+        "brand": "Square One",
+        "legalUnderwriter": "Zurich Insurance Company (via Square One Insurance Services MGA)",
+        "insurerGroup": "Zurich",
+        "distributionType": "MGA_program"
+      },
+      "status": "estimate_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "attempt_online_estimate",
+        "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+        "targetQuoteUrl": "https://www.squareone.ca",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-rbc-insurance",
+      "source": {
+        "registryId": "rbc-insurance",
+        "distinctRateSourceId": "rbc-insurance",
+        "brand": "RBC Insurance",
+        "legalUnderwriter": "RBC Insurance",
+        "insurerGroup": "RBC",
+        "distributionType": "direct"
+      },
+      "status": "estimate_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "attempt_online_estimate",
+        "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+        "targetQuoteUrl": "https://www.rbcinsurance.com",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-lowestrates-ca-brokerage-aggregator",
+      "source": {
+        "registryId": "lowestrates-ca-brokerage-aggregator",
+        "distinctRateSourceId": "lowestrates-ca-brokerage-aggregator",
+        "brand": "LowestRates.ca",
+        "legalUnderwriter": "LowestRates.ca (brokerage aggregator)",
+        "insurerGroup": "LowestRates.ca",
+        "distributionType": "aggregator"
+      },
+      "status": "estimate_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "attempt_online_estimate",
+        "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+        "targetQuoteUrl": "https://www.lowestrates.ca",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-rates-ca-brokerage-aggregator",
+      "source": {
+        "registryId": "rates-ca-brokerage-aggregator",
+        "distinctRateSourceId": "rates-ca-brokerage-aggregator",
+        "brand": "Rates.ca",
+        "legalUnderwriter": "Rates.ca (brokerage aggregator)",
+        "insurerGroup": "Rates.ca",
+        "distributionType": "aggregator"
+      },
+      "status": "estimate_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "attempt_online_estimate",
+        "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+        "targetQuoteUrl": "https://www.rates.ca",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-surex-brokerage-aggregator",
+      "source": {
+        "registryId": "surex-brokerage-aggregator",
+        "distinctRateSourceId": "surex-brokerage-aggregator",
+        "brand": "Surex",
+        "legalUnderwriter": "Surex (brokerage aggregator)",
+        "insurerGroup": "Surex",
+        "distributionType": "aggregator"
+      },
+      "status": "estimate_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "attempt_online_estimate",
+        "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+        "targetQuoteUrl": "https://www.surex.com",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-thinkinsure-ribo-licensed-broker",
+      "source": {
+        "registryId": "thinkinsure-ribo-licensed-broker",
+        "distinctRateSourceId": "thinkinsure-ribo-licensed-broker",
+        "brand": "ThinkInsure",
+        "legalUnderwriter": "ThinkInsure (RIBO-licensed broker)",
+        "insurerGroup": "ThinkInsure",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "targetQuoteUrl": "https://www.thinkinsure.ca",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-onlia-insurance-company-aviva-backed-digital-insurer",
+      "source": {
+        "registryId": "onlia-insurance-company-aviva-backed-digital-insurer",
+        "distinctRateSourceId": "onlia-insurance-company-aviva-backed-digital-insurer",
+        "brand": "Onlia",
+        "legalUnderwriter": "Onlia Insurance Company (Aviva-backed digital insurer)",
+        "insurerGroup": "Onlia",
+        "distributionType": "direct"
+      },
+      "status": "estimate_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "attempt_online_estimate",
+        "rationale": "Self-service route with no human or membership gate in its stated requirements and a known product scope — plan to attempt an online estimate up to whatever verification/licence wall it hits.",
+        "targetQuoteUrl": "https://www.onlia.ca",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-scoop-insurance-independent-broker-verifier-candidate",
+      "source": {
+        "registryId": "scoop-insurance-independent-broker-verifier-candidate",
+        "distinctRateSourceId": "scoop-insurance-independent-broker-verifier-candidate",
+        "brand": "Scoop",
+        "legalUnderwriter": "Scoop Insurance (independent broker verifier candidate)",
+        "insurerGroup": "Scoop",
+        "distributionType": "broker"
+      },
+      "status": "manual_handoff",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "manual_handoff",
+        "rationale": "Route requires a human or licensed intermediary before any rate becomes available.",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    },
+    {
+      "resultId": "prediction-hagerty-canada-collector-program-underwritten-by-aviva",
+      "source": {
+        "registryId": "hagerty-canada-collector-program-underwritten-by-aviva",
+        "distinctRateSourceId": "hagerty-canada-collector-program-underwritten-by-aviva",
+        "brand": "Hagerty",
+        "legalUnderwriter": "Hagerty Canada (collector program, underwritten by Aviva)",
+        "insurerGroup": "Hagerty",
+        "distributionType": "MGA_program"
+      },
+      "status": "specialty_only",
+      "coverage": {
+        "matchesBenchmark": false,
+        "varianceFlags": [],
+        "observed": {}
+      },
+      "discounts": [],
+      "privacy": {
+        "fieldsDisclosedToSource": [],
+        "sensitiveFieldsRedacted": true
+      },
+      "provenance": "planner_prediction",
+      "confidence": "low",
+      "planning": {
+        "plannedAction": "specialty_ineligible",
+        "rationale": "Route is scoped to collector, which this profile (G1 licence, no vehicle) does not match — it does not write standard PPA for this applicant regardless of underwriting depth.",
+        "targetQuoteUrl": "https://www.hagerty.ca",
+        "plannedAt": "2026-08-13T03:03:54.835Z"
+      }
+    }
+  ]
+}

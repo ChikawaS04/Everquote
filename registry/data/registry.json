@@ -14,7 +14,7 @@
     ],
     "automationNotes": "Brief flags specialty/commercial-leaning; validate Ontario standard PPA relevance before treating as a viable consumer route.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -33,7 +33,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -51,7 +51,7 @@
     ],
     "automationNotes": "Brief explicitly flags for validation — confirm whether this legacy Allstate-family entity is still active for new Ontario PPA business.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -68,7 +68,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -85,7 +85,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -103,7 +103,7 @@
       "VIN"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -120,7 +120,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -138,7 +138,7 @@
     ],
     "automationNotes": "Legacy Aviva-family legal entity; confirm current active status. Merge: Appendix A's Aviva row lists 'S&Y' and 'Scottish & York' as two separate tokens — S&Y is the standard market abbreviation for Scottish & York Insurance Company, the same real-world legal entity, not a second distinct rate source. Collapsed to one registry row; see mergedAliases.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false,
     "mergedAliases": [
       "S&Y",
@@ -159,7 +159,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -176,7 +176,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -196,7 +196,7 @@
     ],
     "automationNotes": "CAA membership relationship required; direct/broker hybrid per brief.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -213,7 +213,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -230,7 +230,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -247,7 +247,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -265,7 +265,7 @@
     ],
     "automationNotes": "Historically credit-union/affinity distributed; confirm current membership gating.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -284,7 +284,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -302,7 +302,7 @@
     ],
     "automationNotes": "Brief flags affinity/specialty validation needed.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -319,7 +319,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -337,7 +337,7 @@
     ],
     "automationNotes": "Specialty/commercial-leaning (CNA); validate Ontario standard PPA relevance.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -354,7 +354,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -373,7 +373,7 @@
     ],
     "automationNotes": "Playwright probe priority 1 (§3a.5) — fully online, direct, instant-quote design.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -391,7 +391,7 @@
       "VIN"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -408,7 +408,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -427,7 +427,7 @@
       "membership"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -445,7 +445,7 @@
     ],
     "automationNotes": "Confirm current entity/program mapping vs. Definity post-demutualization.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -463,7 +463,7 @@
     ],
     "automationNotes": "Residual market pool; accessible only via a licensed broker/agent placing a risk the standard market has declined. Not directly quotable by an applicant — structurally manual_handoff.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -481,7 +481,7 @@
     ],
     "automationNotes": "Acts as a locator across individual Ontario farm mutuals, not an underwriter itself; route to the specific mutual once identified.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -498,7 +498,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -516,7 +516,7 @@
     ],
     "automationNotes": "Specialty/commercial-leaning; validate Ontario standard PPA relevance.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -533,7 +533,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -552,7 +552,7 @@
     ],
     "automationNotes": "Playwright probe priority 3 (§3a.5) — major direct writer, online journey.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -570,7 +570,7 @@
     ],
     "automationNotes": "Validate current Ontario PPA relevance vs. specialty/surety focus.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -587,7 +587,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -604,7 +604,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -622,7 +622,7 @@
     ],
     "automationNotes": "Validate legacy/affinity program status.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -640,7 +640,7 @@
     ],
     "automationNotes": "Legacy RSA entity absorbed into Intact; validate active status.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -658,7 +658,7 @@
     ],
     "automationNotes": "Historically affinity-distributed (CAA-adjacent); validate current channel.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -676,7 +676,7 @@
     ],
     "automationNotes": "Validate active Ontario PPA status.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -694,7 +694,7 @@
     ],
     "automationNotes": "Specialty/commercial-leaning; validate Ontario standard PPA relevance.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -712,7 +712,7 @@
     ],
     "automationNotes": "Primarily commercial specialty; validate PPA relevance.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -730,7 +730,7 @@
     ],
     "automationNotes": "Primarily commercial; validate PPA relevance.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -748,7 +748,7 @@
     ],
     "automationNotes": "Validate active status and PPA relevance.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -765,7 +765,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -782,7 +782,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -799,7 +799,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -816,7 +816,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -833,7 +833,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -850,7 +850,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -867,7 +867,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -885,7 +885,7 @@
     ],
     "automationNotes": "Specialty/commercial-leaning; validate PPA relevance.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -903,7 +903,7 @@
     ],
     "automationNotes": "Specialty/commercial-leaning; validate PPA relevance.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -919,7 +919,7 @@
       "VIN"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -937,7 +937,7 @@
     ],
     "automationNotes": "Historically affinity/group-plan distributed; validate current channel.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -955,7 +955,7 @@
       "VIN"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -973,7 +973,7 @@
     ],
     "automationNotes": "Specialty/commercial-leaning; validate PPA relevance.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -990,7 +990,7 @@
       "human"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -1008,7 +1008,7 @@
     ],
     "automationNotes": "Brief marks broker channel for Ontario; validate whether wawanesa.com offers direct ON PPA quoting.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -1026,7 +1026,7 @@
     ],
     "automationNotes": "Specialty/commercial-leaning; validate PPA relevance.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -1044,7 +1044,7 @@
     ],
     "automationNotes": "Specialty/broker routes for Zurich itself; the Ontario-car-relevant route is Square One (see supplemental row) which underwrites through Zurich.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -1063,7 +1063,7 @@
     ],
     "automationNotes": "Playwright probe priority 2 (§3a.5) — online, direct, modern flow, underwritten by Zurich. Named in brief's Appendix A note under Zurich, not as its own Appendix A group.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -1082,7 +1082,7 @@
     ],
     "automationNotes": "Named in brief's direct/exclusive-agent route strategy but not among the 32 Appendix A groups; added for market completeness.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -1100,7 +1100,7 @@
     ],
     "automationNotes": "Broad broker engine A. Brief names its panel as including CAA, Coachman, Economical, Gore, Pafco, Pembridge, SGI, Travelers, Zenith — those carriers already have their own registry rows; do not double-count, cross-reference distinct_rate_source_id instead. Verify panel live.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -1118,7 +1118,7 @@
     ],
     "automationNotes": "Alternative broad broker engine to LowestRates.ca per route strategy; pick one as primary live probe.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -1136,7 +1136,7 @@
     ],
     "automationNotes": "Broad broker engine B. Brief names its panel as including Aviva, Intact, Jevco, Wawanesa, CAA, Coachman, Definity/Economical, Gore, Pafco, Pembridge, SGI, Travelers — cross-reference existing rows rather than double-counting; panel subject to live profile.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -1155,7 +1155,7 @@
     ],
     "automationNotes": "Independent broker verifier. Ontario law requires RIBO-licensed brokers to disclose their full carrier list and obtained quotes on request — ask once, preserve as evidence (bounded-attempt policy, §Appendix).",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -1173,7 +1173,7 @@
       "VIN"
     ],
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -1190,7 +1190,7 @@
     ],
     "automationNotes": "Named as an independent-broker-verifier candidate in the brief; confirm live domain and RIBO licensing during verification.",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   },
   {
@@ -1209,7 +1209,7 @@
     ],
     "automationNotes": "Collector-vehicle program. Participant owns no vehicle, so this route is expected to resolve ineligible/specialty_only regardless of underwriting depth — a useful contrast case (§4 route-planner example).",
     "status": "unresolved",
-    "lastVerifiedAt": "2026-08-09T18:26:27.165Z",
+    "lastVerifiedAt": "2026-08-13T03:03:53.595Z",
     "verifiedDuringHackathonWindow": false
   }
 ]

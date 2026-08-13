@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-08-13T03:03:54.835Z",
+  "registrySource": "C:\\Users\\ddavi\\Everquote\\registry\\data\\registry.json",
+  "totalPlans": 68,
+  "byPredictedStatus": {
+    "unresolved": 19,
+    "manual_handoff": 30,
+    "estimate_only": 12,
+    "affinity_restricted": 4,
+    "specialty_only": 3
+  },
+  "byPlannedAction": {
+    "needs_validation": 19,
+    "manual_handoff": 30,
+    "attempt_online_estimate": 12,
+    "affinity_verification_required": 4,
+    "specialty_ineligible": 3
+  }
+}

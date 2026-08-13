@@ -1,0 +1,20 @@
+{
+  "name": "@oaqa/normalizer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/build.js",
+  "scripts": {
+    "build": "tsc -b",
+    "emit": "node dist/build.js",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@oaqa/schema": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "rimraf": "^6.0.1",
+    "@types/node": "^22.5.0"
+  }
+}
